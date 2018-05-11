@@ -1,0 +1,14 @@
+ 
+  <table>
+    <tbody>
+      <tr>
+        <td>Team </td>
+        <td>Team Name</td>
+      </tr>
+      <tr *ngFor='let list of team$ | async'>
+        <td>{{ list.Team }}</td>
+        <td>{{ list.Team_name }}</td>
+      </tr>
+    </tbody>
+  </table>
+
